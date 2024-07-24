@@ -45,8 +45,8 @@ The function will be given a class_size by number of students, odds, and Number_
 
 ```{r}
 teachers<-numeric(40)
-for(i in 1:40){
-teachers[1]=BrLw()
+for (i in 1:40){
+teachers[i]=BrLw()
 }
 ```
 
@@ -68,6 +68,12 @@ times the mean and add it two times the mean showing the following:
 
 <!--Decide on your methods:  In this section explain the approach you will take to attack the issue --- how will you decide on a likely estimate of professor Brownlow's earnings or losses after 637 bets. Also explain how you construct a 95% confidence interval about your estimate of his winnings !-->
 
+Knowing that Brownlow is giving a 2:1 bet that at least two people in the same 
+class have the same birthday, we will be going over the results of the wager to 
+see if they are fair odds in Brownlows earnings. Having the mean of the 40 
+teachers and subtracting two and adding two standard deviations, we can come up 
+with another way to see if this hypothesis is fair on matching birthdays in a 35 
+person class.
 
 
 
